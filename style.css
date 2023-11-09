@@ -1,0 +1,88 @@
+/* Reset some default styles */
+body, h1, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Style the header */
+header {
+    background: linear-gradient(rgba(255, 140, 102, 0.8), rgba(255, 99, 71, 0.8)), url('header-bg.jpg');
+    background-size: cover;
+    text-align: center;
+    padding: 30px 0;
+    color: #fff;
+}
+
+header h1 {
+    font-size: 48px;
+    font-family: 'Pacifico', cursive;
+    margin: 10px 0;
+}
+
+header p {
+    font-size: 24px;
+}
+
+/* Style the main content */
+main {
+    padding: 20px;
+}
+
+/* Style the about section */
+#about {
+    margin-bottom: 20px;
+}
+
+#about h2 {
+    font-size: 36px;
+    color: #ff6347;
+}
+
+/* Style the gift section */
+#gifts {
+    display: flex;
+    justify-content: space-between;
+}
+
+.gift {
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+}
+
+.gift img {
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+/* Style the message section */
+#message {
+    background-color: #ff6347;
+    color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+#message p {
+    font-size: 18px;
+}
+
+/* Style the footer */
+footer {
+    background-color: #ff8c66;
+    text-align: center;
+    padding: 10px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    font-size: 18px;
+    color: #fff;
+    font-weight: bold;
+}
